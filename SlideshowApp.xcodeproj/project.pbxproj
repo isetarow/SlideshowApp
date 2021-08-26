@@ -13,6 +13,11 @@
 		1117F6CF26D77C69007FC04A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1117F6CD26D77C69007FC04A /* Main.storyboard */; };
 		1117F6D126D77C6B007FC04A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1117F6D026D77C6B007FC04A /* Assets.xcassets */; };
 		1117F6D426D77C6B007FC04A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1117F6D226D77C6B007FC04A /* LaunchScreen.storyboard */; };
+		1117F6F126D78C02007FC04A /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1117F6ED26D78C02007FC04A /* 4.jpeg */; };
+		1117F6F226D78C02007FC04A /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1117F6EE26D78C02007FC04A /* 3.jpeg */; };
+		1117F6F326D78C02007FC04A /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1117F6EF26D78C02007FC04A /* 2.jpeg */; };
+		1117F6F426D78C02007FC04A /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1117F6F026D78C02007FC04A /* 1.jpeg */; };
+		1117F6F726D7988D007FC04A /* ScaleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117F6F626D7988D007FC04A /* ScaleImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		1117F6D026D77C6B007FC04A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1117F6D326D77C6B007FC04A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1117F6D526D77C6B007FC04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1117F6ED26D78C02007FC04A /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		1117F6EE26D78C02007FC04A /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		1117F6EF26D78C02007FC04A /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		1117F6F026D78C02007FC04A /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		1117F6F626D7988D007FC04A /* ScaleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		1117F6C626D77C69007FC04A /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				1117F6E026D78142007FC04A /* images */,
 				1117F6C726D77C69007FC04A /* AppDelegate.swift */,
 				1117F6C926D77C69007FC04A /* SceneDelegate.swift */,
 				1117F6CB26D77C69007FC04A /* ViewController.swift */,
 				1117F6CD26D77C69007FC04A /* Main.storyboard */,
+				1117F6F626D7988D007FC04A /* ScaleImageViewController.swift */,
 				1117F6D026D77C6B007FC04A /* Assets.xcassets */,
 				1117F6D226D77C6B007FC04A /* LaunchScreen.storyboard */,
 				1117F6D526D77C6B007FC04A /* Info.plist */,
 			);
 			path = SlideshowApp;
+			sourceTree = "<group>";
+		};
+		1117F6E026D78142007FC04A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1117F6F026D78C02007FC04A /* 1.jpeg */,
+				1117F6EF26D78C02007FC04A /* 2.jpeg */,
+				1117F6EE26D78C02007FC04A /* 3.jpeg */,
+				1117F6ED26D78C02007FC04A /* 4.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +147,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1117F6F426D78C02007FC04A /* 1.jpeg in Resources */,
+				1117F6F226D78C02007FC04A /* 3.jpeg in Resources */,
 				1117F6D426D77C6B007FC04A /* LaunchScreen.storyboard in Resources */,
+				1117F6F326D78C02007FC04A /* 2.jpeg in Resources */,
 				1117F6D126D77C6B007FC04A /* Assets.xcassets in Resources */,
+				1117F6F126D78C02007FC04A /* 4.jpeg in Resources */,
 				1117F6CF26D77C69007FC04A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +167,7 @@
 				1117F6CC26D77C69007FC04A /* ViewController.swift in Sources */,
 				1117F6C826D77C69007FC04A /* AppDelegate.swift in Sources */,
 				1117F6CA26D77C69007FC04A /* SceneDelegate.swift in Sources */,
+				1117F6F726D7988D007FC04A /* ScaleImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
